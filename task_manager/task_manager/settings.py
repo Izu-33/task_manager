@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ucrfqm$3^8gb62odvxn(wip_#i@r!f9j33)97f5h&_a!r_g&dj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['task-manager-jade-five.vercel.app']
 
 
 # Application definition
