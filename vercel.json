@@ -1,12 +1,12 @@
 {
     "builds": [{
-      "src": "task_manager/task_manager/wsgi.py",
+      "src": "task_manager/wsgi.py",
       "use": "@vercel/python"
     }],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "task_manager/task_manager/wsgi.py"
+        "dest": "task_manager/wsgi.py"
       }
     ]
 }
